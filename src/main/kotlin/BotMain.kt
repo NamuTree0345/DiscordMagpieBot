@@ -4,7 +4,7 @@ import net.dv8tion.jda.api.entities.MessageChannel
 
 class BotMain() {
     fun start() {
-        val api = JDABuilder("NzExMDIyNjc3NDUxNzM1MDYx.Xr89gA.-ayH5lsgo_Wjd2lHgi3nZNhK3fQ").build()
+        val api = JDABuilder("비^^").build()
         api.addEventListener(ReadyListener(), MessageListener(api))
         api.presence.activity = Activity.playing("클스 스탭분들 주시")
     }
